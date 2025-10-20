@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback form</title>
+</head>
+
+<body>
+<form>
+
+    <fieldset>
+        <legend class="title">Full name</legend>
+        <div class="row">
+            <label>
+                <input class="field" type="text" placeholder="First Name">
+            </label>
+            <label>
+                <input class="field" type="text" placeholder="Last Name">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend class="title">Address</legend>
+        <div class="row">
+            <label>
+                <input class="field" type="text" placeholder="Street Address">
+            </label>
+        </div>
+        <div class="row">
+            <label>
+                <input class="field" type="text" placeholder="City">
+            </label>
+            <label>
+                <input class="field" type="text" placeholder="State">
+            </label>
+            <label>
+                <input class="field" type="text" placeholder="ZIP Code">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend class="title">Contact Information</legend>
+        <div class="row">
+            <label>
+                <input class="field" type="email" placeholder="Email*" required>
+            </label>
+            <label>
+                <input class="field" type="tel" placeholder="Phone">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend class="title">Questions / Comments</legend>
+        <div class="row">
+            <label>
+                <textarea class="field" placeholder="Message*" required></textarea>
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div class="row">
+            <input class="updates" type="checkbox" id="updates">
+            <label class="updates-label" for="updates">Update me on deals and special offers via email.</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div class="row">
+            <button class="submit" type="submit">Submit</button>
+        </div>
+    </fieldset>
+
+</form>
+</body>
+
+</html>

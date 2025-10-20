@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.field {
+    border: 0;
+    background: #ececec;
+    padding: 5px;
+}
+
+.updates {
+    width: 16px;
+    height: 16px;
+}
+
+.submit {
+    background-color: #000000;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
