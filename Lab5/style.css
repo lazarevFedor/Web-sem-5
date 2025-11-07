@@ -43,13 +43,11 @@
 
 #block3-1 {
     width: 350px;
-    float: left;
     background-color: #f0ae2d;
 }
 
 #block3-2 {
     width: 630px;
-    float: left;
     background-color: #8672f0;
 }
 
@@ -62,25 +60,21 @@
 
 #block4-1 {
     width: 350px;
-    float: left;
     background-color: #f05e67;
 }
 
 #block4-2 {
     width: 200px;
-    float: left;
     background-color: #f0c132;
 }
 
 #block4-3 {
     width: 200px;
-    float: left;
     background-color: #93f0e3;
 }
 
 #block4-4 {
     width: 230px;
-    float: left;
     background-color: #f08922;
 }
 
