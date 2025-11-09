@@ -1,0 +1,16 @@
+.content {
+    color: black;
+    align-content: center;
+}
+
+@media (max-width: 800px) {
+    .content {
+        color: coral;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        color: rebeccapurple;
+    }
+}
